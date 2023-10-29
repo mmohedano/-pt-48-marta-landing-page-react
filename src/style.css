@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  //border: solid;
+  
+}
+
+body {
+  margin: auto;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  background-color:aquamarine;
+  
+}
+.app__container{
+  
+  color:white;
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+  border: solid;
+  border-radius: 20px;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+.body__container{
+  height: 300px;
+  width: 400px;
+  border: pink;
+  display: flex;
+  margin: auto;
+  
+}
+.header__container{
+display: flex;
+justify-content: space-around;
+height: 30px;
+width: 400px;
+font-size: 13px;
+margin-top: 20px;
+
+ 
+}
+
+.body__container-left{
+  height: 300px;
+  width: 200px;
+  
+  border: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.body__container-left-text{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  border: pink;
+  display: flex;
+  flex-direction: column;
+  text-align:start;
+  
+}
+.body__container-right{
+  height: 300px;
+  width: 300px;
+  
+  border: red;
+  display: flex;
+  
+}
+.body__container-left-button{
+  color: white;
+  background-color: #5C797F;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: none;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 10px;
+  
+
+}
+.body__container-right-image{
+  width: ;
+}
+.body__container-left-icons{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.header__container-options{
+display: flex;
+justify-content:space-between;
+
+}
+
+.header__container-options-about{
+  margin-right: 5px;
+}
+.header__container-options-catalog{
+  margin-right: 5px;
+}
+.header__container-options-contact{
+  margin-right: 5px;
+}
+.header__container-options-faq{
+  margin-right: 5px;
+}
+.body__container-left-text-heading{
+  font-size: 15px;
+  text-align: justify;
+}
+.body__container-left-text-paragraph{
+  font-size: 10px;
+  text-align: justify;
+  
+}
