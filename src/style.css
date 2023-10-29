@@ -92,12 +92,12 @@ margin-top: 20px;
 
 .body__container-left-icons{
   display: flex;
-  align-items: baseline;
   margin-bottom: 10px;
+  align-items:flex-start;
+  
 }
 .header__container-options{
 display: flex;
-justify-content:space-between;
 
 }
 
@@ -127,7 +127,7 @@ justify-content:space-between;
   background: #A9B5A9;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
  display: flex;
  justify-content: space-between;
  align-items: center;

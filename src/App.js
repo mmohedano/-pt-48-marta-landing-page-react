@@ -19,7 +19,7 @@ const Header = () =>{
     </div>
     <div className="header__container_icons"> 
        <span className="header__container-icons-apple"><FontAwesomeIcon icon={faApple} size="lg" style={{color: "#5e7b80",}} /></span>
-       <span className="header__container-icons-android"><FontAwesomeIcon icon={faGooglePlay} size="lg" style={{color: "#617c84",}} /></span>
+       <span className="header__container-icons-android"><FontAwesomeIcon icon={faGooglePlay} size="m" style={{color: "#617c84",}} /></span>
     </div>
   </div>
   </>)
