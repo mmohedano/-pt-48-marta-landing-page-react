@@ -7,7 +7,7 @@
 body {
   margin: auto;
   padding: 1rem;
-  font-family: system-ui, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color:#CC7679;
   
 }
@@ -130,6 +130,7 @@ justify-content:space-between;
   border-radius: 10px;
  display: flex;
  justify-content: space-between;
+ align-items: center;
 
   
 }
