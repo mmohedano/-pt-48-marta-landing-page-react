@@ -1,18 +1,26 @@
 import React from 'react';
 import './style.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCircleArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faCircleArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import {faCircleDot} from '@fortawesome/free-solid-svg-icons'
+import {faApple} from '@fortawesome/free-brands-svg-icons'
+import {faGooglePlay} from '@fortawesome/free-brands-svg-icons'
 
 const Header = () =>{
   return (<>
   <div className="header__container">
-<span>🟣 </span>
-<span className="header__container-options"> 
-   <span className="header__container-options-about">About </span>
-   <span className="header__container-options-catalog">Catalog </span>
-   <span className="header__container-options-contact">Contact </span>
-   <span className="header__container-options-faq">FAQ </span>       
-  </span>
-<span>🍎 ▶️ </span>
+     <div><FontAwesomeIcon icon={faCircleDot} size="xl" style={{color: "#5c797f",}} /></div>
+     <div className="header__container-options"> 
+       <span className="header__container-options-about">About </span>
+       <span className="header__container-options-catalog">Catalog </span>
+       <span className="header__container-options-contact">Contact </span>
+       <span className="header__container-options-faq">FAQ </span>       
+    </div>
+    <div className="header__container_icons"> 
+       <span className="header__container-icons-apple"><FontAwesomeIcon icon={faApple} size="lg" style={{color: "#5e7b80",}} /></span>
+       <span className="header__container-icons-android"><FontAwesomeIcon icon={faGooglePlay} size="lg" style={{color: "#617c84",}} /></span>
+    </div>
   </div>
   </>)
 }
@@ -30,8 +38,10 @@ const Body = () =>{
       </span>
       
       <span className="body__container-left-icons"> 
-       ➡️ 
+        <span><FontAwesomeIcon icon={faCircleArrowLeft} size="lg" style={{color: "#5c797f",}} /></span>
+        <span><FontAwesomeIcon icon={faCircleArrowRight} size="lg" style={{color: "#5c797f",}} /></span>
     </span>
+   
     </div>
     <div className="body__container-right">
       <img className="body__container-right-image" src="woman_shopping.png" alt="women shopping"/>

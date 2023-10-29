@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  //border: solid;
+  
   
 }
 
@@ -8,7 +8,7 @@ body {
   margin: auto;
   padding: 1rem;
   font-family: system-ui, sans-serif;
-  background-color:grey;
+  background-color:#CC7679;
   
 }
 .app__container{
@@ -24,6 +24,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  
 
 }
 
@@ -88,9 +89,7 @@ margin-top: 20px;
   
 
 }
-.body__container-right-image{
-  width: ;
-}
+
 .body__container-left-icons{
   display: flex;
   align-items: baseline;
@@ -102,17 +101,18 @@ justify-content:space-between;
 
 }
 
+
 .header__container-options-about{
   margin-right: 5px;
 }
 .header__container-options-catalog{
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .header__container-options-contact{
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .header__container-options-faq{
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .body__container-left-text-heading{
   font-size: 15px;
@@ -121,5 +121,15 @@ justify-content:space-between;
 .body__container-left-text-paragraph{
   font-size: 10px;
   text-align: justify;
+  
+}
+.header__container_icons{
+  background: #A9B5A9;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+ display: flex;
+ justify-content: space-between;
+
   
 }
