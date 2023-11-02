@@ -1,3 +1,2 @@
-# stackblitz-starters-9y6hk5
+# Landing Page with React
 
-[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/mmohedano/stackblitz-starters-9y6hk5)
